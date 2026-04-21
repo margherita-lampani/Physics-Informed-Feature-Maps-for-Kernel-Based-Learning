@@ -31,7 +31,8 @@ Reproduces the pulsar magnetic dissipation regression experiment (Section 3.2). 
 Reproduces the gravitational binary system classification experiment (Section 3.3). The task is to predict whether two celestial bodies are gravitationally bound, using the sign of the total mechanical energy. Two PIFs with the dimension of energy are constructed from the four input features. SVC with both linear and Gaussian kernels is applied to SFs and SPIFs across three class-imbalance configurations (50/50, 70/30, 90/10), and the results are evaluated through confusion matrices and skill scores (TSS, HSS, Sensitivity, Specificity, Accuracy).
 
 ### `classification_flares.ipynb` *(coming soon)*
-Will reproduce the solar flare forecasting experiment (Section 4), the only experiment based on real data. Nine magnetogram-derived features are used to construct six PIFs with the dimension of magnetic energy, and SVC with linear and Gaussian kernels is trained to predict whether an active region will produce an M-class flare within the next 24 hours. A sequential PIF ranking procedure identifies PIF₂ = ΦI as the most predictive feature. The required data must be placed in the `Data/` folder before running the notebook.
+Reproduces the solar flare forecasting experiment (Section 4), the only experiment based on real data. Nine magnetogram-derived features are used to construct six PIFs with the dimension of magnetic energy, and SVC with linear and Gaussian kernels is trained to predict whether an active region will produce an M-class flare within the next 24 hours. A sequential PIF ranking procedure identifies PIF₂ = ΦI as the most predictive feature. 
+The required data must be placed in the `Data/` folder before running the notebook.
 
 ---------------------------------------------------------------------
 
