@@ -10,12 +10,14 @@ All experiments implement the physics-informed feature map framework described i
 
 ## Repository Structure
 
-classification_binary.ipynb  
-classification_flares.ipynb   (coming soon) 
-regression_bernoulli.ipynb  
-regression_pulsar.ipynb  
- 
-Data/   (required only for flare classification)
+## Repository Structure
+
+| Notebook | Description | Status |
+|---|---|---|
+| `regression_bernoulli.ipynb` | Fluid dynamics regression (Section 3.1) | 
+| `regression_pulsar.ipynb` | Pulsar magnetic dissipation regression (Section 3.2) | 
+| `classification_binary.ipynb` | Gravitational binary system classification (Section 3.3) | 
+| `classification_flares.ipynb` | Solar flare forecasting — requires data in `Data/` (Section 4) | 
 
 ---------------------------------------------------------------------
 
