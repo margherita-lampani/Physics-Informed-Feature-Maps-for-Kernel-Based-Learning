@@ -10,8 +10,6 @@ All experiments implement the physics-informed feature map framework described i
 
 ## Repository Structure
 
-## Repository Structure
-
 | Notebook | Description | 
 |---|---|
 | `regression_bernoulli.ipynb` | Fluid dynamics regression (Section 3.1) | 
