@@ -12,7 +12,7 @@ All experiments implement the physics-informed feature map framework described i
 
 ## Repository Structure
 
-| Notebook | Description | Status |
+| Notebook | Description | 
 |---|---|---|
 | `regression_bernoulli.ipynb` | Fluid dynamics regression (Section 3.1) | 
 | `regression_pulsar.ipynb` | Pulsar magnetic dissipation regression (Section 3.2) | 
