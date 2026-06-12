@@ -1,0 +1,13 @@
+Complexity,Loss,Equation
+1,2.603986e13,"3.6369355e6"
+3,9.816955e12,"p_stat * 1.3178219"
+5,9.238951e12,"p_stat + (rho * 2135.0156)"
+7,8.14632e12,"((vel * 45.328773) * rho) + p_stat"
+8,8.0960647e12,"p_stat + ((square(vel) * 0.5912247) * rho)"
+10,8.052347e12,"(((square(vel) * 0.51760954) + 439.13873) * rho) + p_stat"
+12,8.026214e12,"p_stat + (rho * (square(vel * 0.7210438) - (h * -8.595975)))"
+14,8.025398e12,"p_stat + (rho * (square(vel * 0.7210438) - ((area + h) * -8.595975)))"
+16,8.0251695e12,"(rho * (square(vel * 0.71874595) - (((area + h) - -2.1576233) * -8.202452))) + p_stat"
+17,8.024195e12,"p_stat + (rho * ((-0.4889517 + square(vel * 0.7210438)) - ((h + square(area)) * -8.595975)))"
+18,8.022272e12,"((rho * 0.51467496) * square(vel)) + (((square(rho) * (square(area) + h)) / 126.46178) + p_stat)"
+20,8.0204865e12,"p_stat + (((rho * 0.5177252) * square(vel)) + square((((h + square(area)) - -35.21068) * rho) / 147.5148))"

@@ -1,0 +1,1 @@
+[NbConvertApp] Converting notebook regression_bernoulli.ipynb to notebook
