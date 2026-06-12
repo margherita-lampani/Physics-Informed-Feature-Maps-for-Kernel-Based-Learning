@@ -23,7 +23,7 @@ All experiments implement the physics-informed feature map framework described i
 
 ### `regression_bernoulli.ipynb`
 Reproduces the fluid dynamics regression experiment (Section 4.1). Starting from seven physical features — static pressure $p$, fluid density $\rho$, speed $v$, volumetric flow rate $Q$, cross-sectional area $A$, dynamic viscosity $\mu$, and height $h$ — the notebook constructs seven physics-informed features (PIFs) with the dimension of pressure, the first three of which correspond exactly to the terms of Bernoulli's equation. Ridge Regression and SVR with a linear kernel are trained on both standardized features (SFs) and standardized PIFs (SPIFs) under three noise levels (10%, 30%, 50%). The notebook then applies the sequential feature ranking algorithm to identify which PIFs drive prediction saturation and recovers the physical coefficients of Bernoulli's equation by de-standardizing the regression weights.
-A comparison with PySR, an established symbolic regression method, is also given in this notebook.
+A comparison with PySR, an established symbolic regression method, is also given in this notebook. Final equations subset extracted by the method are in `outputs/`.
 
 ### `regression_pulsar.ipynb`
 Reproduces the pulsar magnetic dissipation regression experiment (Section 4.2). The notebook generates synthetic data from the magnetic energy dissipation law, builds seven PIFs with the dimension of power, and runs the experiment twice: once with all SPIFs and once excluding PIF₁ — the feature corresponding to the correct physical equation — to test how performance degrades when the governing law is absent from the feature set. Results from both runs are compared against the standard SF baseline.
